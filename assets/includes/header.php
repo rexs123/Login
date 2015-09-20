@@ -11,7 +11,7 @@ include('var.php');
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="">
 <meta name="author" content="Rexsdev &amp; Design">
-<title><?php $sql = "SELECT * FROM settings"; $result = mysqli_query($conn, $sql); if ($result->num_rows > 0) { while($row = $result->fetch_assoc()) {  echo $row['title']; }}?> | <?php if(isset($title)){ echo $title; }?></title>
+<title>LOGOIN SCRIPT</title>
 <link href="<?php echo DIR;?>/assets/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/jquery-ui.css">
 <link href="<?php echo DIR;?>/assets/css/style.css" rel="stylesheet">
